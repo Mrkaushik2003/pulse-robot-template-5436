@@ -106,21 +106,21 @@ const Hero = () => {
               style={{ animationDelay: "0.1s" }}
             >
               <span className="inline-flex items-center justify-center w-5 h-5 rounded-full bg-pulse-500 text-white mr-2">01</span>
-              <span>Purpose</span>
+              <span>Innovation</span>
             </div>
             
             <h1 
               className="section-title text-3xl sm:text-4xl lg:text-5xl xl:text-6xl leading-tight opacity-0 animate-fade-in" 
               style={{ animationDelay: "0.3s" }}
             >
-              Atlas: Where Code<br className="hidden sm:inline" />Meets Motion
+              HR AI: Smart Resume<br className="hidden sm:inline" />Processing Made Simple
             </h1>
             
             <p 
               style={{ animationDelay: "0.5s" }} 
               className="section-subtitle mt-3 sm:mt-6 mb-4 sm:mb-8 leading-relaxed opacity-0 animate-fade-in text-gray-950 font-normal text-base sm:text-lg text-left"
             >
-              The humanoid companion that learns and adapts alongside you.
+              Transform your hiring process with AI-powered resume analysis, intelligent job matching, and automated candidate outreach.
             </p>
             
             <div 
@@ -142,7 +142,7 @@ const Hero = () => {
                   border: '1px solid white',
                 }}
               >
-                Request Access
+                 Start Free Trial
                 <ArrowRight className="ml-2 w-4 h-4 transition-transform group-hover:translate-x-1" />
               </a>
             </div>

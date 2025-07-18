@@ -10,27 +10,27 @@ interface TestimonialProps {
 }
 
 const testimonials: TestimonialProps[] = [{
-  content: "Atlas transformed our production line, handling repetitive tasks while our team focuses on innovation. 30% increase in output within three months.",
-  author: "Sarah Chen",
-  role: "VP of Operations, Axion Manufacturing",
+  content: "Our HR team was drowning in resumes. This AI tool processed 500+ applications in minutes and identified our top 20 candidates perfectly.",
+  author: "Jessica Martinez",
+  role: "Head of Talent Acquisition, TechFlow Inc.",
   gradient: "from-blue-700 via-indigo-800 to-purple-900",
   backgroundImage: "/background-section1.png"
 }, {
-  content: "Implementing Atlas in our fulfillment centers reduced workplace injuries by 40% while improving order accuracy. The learning capabilities are remarkable.",
-  author: "Michael Rodriguez",
-  role: "Director of Logistics, GlobalShip",
+  content: "The automated email outreach feature saved us 15 hours per week. Response rates increased by 40% with the personalized templates.",
+  author: "David Kim",
+  role: "Recruitment Manager, StartupHub",
   gradient: "from-indigo-900 via-purple-800 to-orange-500",
   backgroundImage: "/background-section2.png"
 }, {
-  content: "Atlas adapted to our lab protocols faster than any system we've used. It's like having another researcher who never gets tired and maintains perfect precision.",
-  author: "Dr. Amara Patel",
-  role: "Lead Scientist, BioAdvance Research",
+  content: "Finally, an AI that understands the nuances of technical roles. It matched candidates we never would have considered and they turned out to be perfect fits.",
+  author: "Dr. Rachel Thompson",
+  role: "VP of Engineering, CodeCraft Solutions",
   gradient: "from-purple-800 via-pink-700 to-red-500",
   backgroundImage: "/background-section3.png"
 }, {
-  content: "As a mid-size business, we never thought advanced robotics would be accessible to us. Atlas changed that equation entirely with its versatility and ease of deployment.",
-  author: "Jason Lee",
-  role: "CEO, Innovative Solutions Inc.",
+  content: "As a growing company, we needed to scale our hiring fast. This platform helped us build our team from 20 to 100 employees in 6 months.",
+  author: "Marcus Johnson",
+  role: "CEO, GrowthTech Ventures",
   gradient: "from-orange-600 via-red-500 to-purple-600",
   backgroundImage: "/background-section1.png"
 }];
