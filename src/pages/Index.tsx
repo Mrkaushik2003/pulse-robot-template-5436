@@ -1,5 +1,6 @@
-
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
+import { Button } from "@/components/ui/button";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import HumanoidSection from "@/components/HumanoidSection";
@@ -61,7 +62,20 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Navbar />
-      <main className="space-y-4 sm:space-y-8"> {/* Reduced space on mobile */}
+      
+      {/* Add CTA to Dashboard */}
+      <div className="bg-purple-600 text-white text-center py-4">
+        <div className="max-w-4xl mx-auto px-4">
+          <p className="text-lg mb-2">Ready to streamline your HR process?</p>
+          <Link to="/dashboard">
+            <Button variant="secondary" size="lg">
+              Launch HR AI Dashboard
+            </Button>
+          </Link>
+        </div>
+      </div>
+
+      <main className="space-y-4 sm:space-y-8">
         <Hero />
         <HumanoidSection />
         <SpecsSection />
